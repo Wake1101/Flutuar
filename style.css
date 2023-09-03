@@ -3,6 +3,11 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #3f3d56;
   text-align: center;
+  margin-top: 0;
+}
+/*colocando margem a imagem do site*/
+#planeta {
+  margin-top: 64px;
 }
 /*ajustrando o titulo*/
 h1 {
@@ -10,6 +15,7 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: normal;
+  margin-top: 32px;
 }
 /*ajustando os paragrafos*/
 p {
@@ -19,13 +25,42 @@ p {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
+  margin-top: 16px;
+}
+#paragrafo2 {
+  margin-top: 32px;
+  width: 626px;
+  height: 21px;
 }
 /*ajustando a palavra especifica do paragrafo*/
 span {
   color: #828282;
+  font-weight: 700;
 }
 /*ajustando a palavra especica do titulo*/
 h1 span {
   color: #ee24ff;
-  font-weight: 700;
+}
+/*ajustando as margens do rodapé*/
+#footer {
+  margin-top: 80px;
+}
+/*colocando a linha acima dos links*/
+#line {
+  border-top: 1px solid #eceff2;
+  width: 391px;
+  height: 0px;
+  margin: auto;
+}
+/*retirando a decorção dos links*/
+#footer a {
+  text-decoration: none;
+}
+/*espaçamento entre os links*/
+#footer a + a {
+  margin-left: 42px;
+}
+/*margem na onda*/
+#wave {
+  margin-top: 40.83px;
 }
