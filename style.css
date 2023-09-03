@@ -43,7 +43,7 @@ h1 span {
 }
 /*ajustando as margens do rodapé*/
 #footer {
-  margin-top: 80px;
+  margin-top: 64px;
 }
 /*colocando a linha acima dos links*/
 #line {
@@ -62,5 +62,6 @@ h1 span {
 }
 /*margem na onda*/
 #wave {
+  height: 104px;
   margin-top: 40.83px;
 }
